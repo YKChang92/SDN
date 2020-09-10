@@ -7,7 +7,7 @@ import torch.nn.functional as F
 
 import math
 
-from torchviz import make_dot
+#from torchviz import make_dot
 #os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
 class SingleLayer(nn.Module):
     def __init__(self, inchannel, outchannel):
@@ -166,13 +166,3 @@ class IFNet(nn.Module):
 
 
 
-# dd=IFNet()
-#
-# print(dd)
-# # # g=make_dot(dd)
-# # # g.render('espnet_model', view=False)
-# a=torch.ones(1,3,224,320)
-# b=torch.ones(1,3,224,320)
-#
-# c,d=dd(a,b)
-# print(c.size())

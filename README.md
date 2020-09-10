@@ -17,7 +17,7 @@ This is our environment, the versions of the tools do not have to be absolutely 
 
 The trained parameters are in "parameters".
 
-Dataset: the dataset can be download at: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx. The dataset contains six folders: im1(no flash glass images), im2(flash glass images), im3(no flash ground truth), im4(flash ground truth), im5(fusion ground truth), im6(detected over exposure regions). 
+Dataset: the dataset can be download at: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx. And the password is: xxxx. The dataset contains six folders: im1(no flash glass images), im2(flash glass images), im3(no flash ground truth), im4(flash ground truth), im5(fusion ground truth), im6(detected over exposure regions). 
 
 test_list1.npy(for synthetic1), test_list2.npy(for synthetic2),test_list3.npy(for real) indicate the indices of test images.
 

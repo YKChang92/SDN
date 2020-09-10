@@ -1,4 +1,5 @@
 # SDN
+![image](https://github.com/YKChang92/SDN/blob/master/SDN.PNG)
 This is the code for paper "Siamese Dense Network for Reflection Removal with Flash and No-flash Image Pairs".  Before running the code, the following requirements should be installed:
 
 Python 3.6.0

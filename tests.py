@@ -5,7 +5,7 @@ import os
 import skimage.io as io
 from densenet import SDNet, IFNet
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
-log_dir='/home/changyakun_16/raid/log/'
+#log_dir='/home/cky/raid/log/'
 str1='/data/im1/'
 str2='/data/im2/'
 str3='/data/im3/'

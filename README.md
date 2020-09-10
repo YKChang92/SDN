@@ -1,11 +1,18 @@
 # SDN
 This is the code for paper "Siamese Dense Network for Reflection Removal with Flash and No-flash Image Pairs".  Before running the code, the following requirements should be installed:
+
 Python 3.6.0
+
 Pytorch 1.4.0 + cuda 10.0
+
 pytorch-msssim 0.2.1
+
 numpy 1.16.3 
+
 skimage 0.15.0
+
 Matlab (use FeatureSIM.m to calculate FSIM)
+
 This is our environment, the versions of the tools do not have to be absolutely the same with ours. 
 
 The trained parameters are in "parameters".

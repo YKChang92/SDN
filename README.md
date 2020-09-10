@@ -30,3 +30,7 @@ If the code does  provide some help to you, please cite the SDN paper, thank you
   year={2020},
   publisher={Springer}
 }
+
+If you use the released dataset, please cite the two works:
+[1]Aksoy, Y., Kim, C., Kellnhofer, P., Paris, S., Elgharib, M., Pollefeys, M., Matusik, W.: A dataset of flash and ambient illumination pairs from the crowd. In: Proceedings of the European Conference on Computer Vision (ECCV), pp. 634-649 (2018)
+[2]Song, S., Lichtenberg, S.P., Xiao, J.: Sun rgb-d: A rgb-d scene understanding benchmark suite. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 567-576 (2015)

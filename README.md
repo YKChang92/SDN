@@ -34,11 +34,11 @@ If the code does  provide some help to you, please cite the SDN paper, thank you
 
 @article{chang2020siamese,  
         title={Siamese Dense Network for Reflection Removal with Flash and No-Flash Image Pairs},  
-  author={Chang, Yakun and Jung, Cheolkon and Sun, Jun and Wang, Fengqiao},  
-  journal={International Journal of Computer Vision},  
-  pages={1--26},  
-  year={2020},  
-  publisher={Springer}  
+        author={Chang, Yakun and Jung, Cheolkon and Sun, Jun and Wang, Fengqiao},  
+        journal={International Journal of Computer Vision},  
+        pages={1--26},  
+        year={2020},  
+        publisher={Springer}  
 }
 
 If you use the released dataset, please cite the two works:

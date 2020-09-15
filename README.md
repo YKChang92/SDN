@@ -2,37 +2,32 @@
 
 ![image](https://github.com/YKChang92/SDN/blob/master/SDN.PNG)
 
-This is the code for paper "Siamese Dense Network for Reflection Removal with Flash and No-flash Image Pairs".  Before running the code, the following requirements should be installed:
+#This is the code for the paper "Siamese Dense Network for Reflection Removal with Flash and No-flash Image Pairs": https://link.springer.com/article/10.1007/s11263-019-01276-z.  Before running the code, the following requirements should be installed:
 
-Python 3.6.0
-
-Pytorch 1.4.0 + cuda 10.0
-
-pytorch-msssim 0.2.1
-
-numpy 1.16.3 
-
-skimage 0.15.0
-
+Python 3.6.0  
+Pytorch 1.4.0 + cuda 10.0  
+pytorch-msssim 0.2.1  
+numpy 1.16.3   
+skimage 0.15.0  
 Matlab (use FeatureSIM.m to calculate FSIM)
 
-This is our environment, the versions of the tools do not have to be absolutely the same with ours. 
+#This is our environment, the versions of the tools do not have to be absolutely the same with ours. 
 
-The trained parameters are in "parameters".
+#The trained parameters are in "parameters".
 
-Dataset: the dataset can be download at:https://pan.baidu.com/s/18uNZsz3cIcO5eHNP4gqu-w. And the password is "haya". The dataset contains six folders: im1(no flash glass images), im2(flash glass images), im3(no flash ground truth), im4(flash ground truth), im5(fusion ground truth), im6(detected over exposure regions). 
+#Dataset: the dataset can be download at:https://pan.baidu.com/s/18uNZsz3cIcO5eHNP4gqu-w. And the password is "haya". The dataset contains six folders: im1(no flash glass images), im2(flash glass images), im3(no flash ground truth), im4(flash ground truth), im5(fusion ground truth), im6(detected over exposure regions). 
 
-camera_app: this app is used to collected your own real data. It works well on HUAWEI P10, Redmi Note 5, MEIZU M15/16. We are not sure if it works on other andriod devices.  
+#camera_app: this app is used to collected your own real data. It works well on HUAWEI P10, Redmi Note 5, MEIZU M15/16. We are not sure if it works on other andriod devices.  
 
-test_list1.npy(for synthetic1), test_list2.npy(for synthetic2),test_list3.npy(for real) indicate the indices of test images.
+#test_list1.npy(for synthetic1), test_list2.npy(for synthetic2),test_list3.npy(for real) indicate the indices of test images.
 
-When you use it, change the data path and run "tests.py"
+#When you use it, change the data path and run "tests.py"
 
-Note that this code is not the original code of the SDN paper. (For the reason that the old version is written by Tensorflow 1.x and Tensorlayer, we think now the old version must be difficult for users to use, and more and more researchers use pytorch for their works, so we release a pytorch version. )  And the SSIM,PSNR,FSIM  scores reported in SDN paper are calculated by Matlab. Thus, the performance of this version is a little different with old one (Results on Synthetic1,Synthetic2 are better; quantitative scores on real data are a little lower).  
+#Note that this code is not the original code of the SDN paper. (For the reason that the old version is written by Tensorflow 1.x and Tensorlayer, we think now the old version must be difficult for users to use, and more and more researchers use pytorch for their works, so we release a pytorch version. )  And the SSIM,PSNR,FSIM  scores reported in SDN paper are calculated by Matlab. Thus, the performance of this version is a little different with old one (Results on Synthetic1,Synthetic2 are better; quantitative scores on real data are a little lower).  
 
-If any comparison with SDN is made, you can take the performance of this version as a baseline.  
+#If any comparison with SDN is made, you can take the performance of this version as a baseline.  
 
-If the code does  provide some help to you, please cite the SDN paper, thank you very much:
+#If the code does  provide some help to you, please cite the SDN paper, thank you very much:
 
 >@article{chang2020siamese,  
 >>       title={Siamese Dense Network for Reflection Removal with Flash and No-Flash Image Pairs},  
@@ -44,7 +39,7 @@ If the code does  provide some help to you, please cite the SDN paper, thank you
 >>       publisher={Springer}  
 >}
 
-If you use the released dataset, please cite the two works:
+#If you use the released dataset, please cite the two works:
 
 [1]Aksoy, Y., Kim, C., Kellnhofer, P., Paris, S., Elgharib, M., Pollefeys, M., Matusik, W.: A dataset of flash and ambient illumination pairs from the crowd. In: Proceedings of the European Conference on Computer Vision (ECCV), pp. 634-649 (2018)
 
